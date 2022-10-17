@@ -1,0 +1,65 @@
+body {
+    background-color: #b6e1dc;
+    font-family: "Merriweather", sans-serif;
+    color: darkslategray;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Kanit", sans-serif;
+}
+
+.logo {
+    letter-spacing: 0.5rem;
+    margin: 10% 2%;
+}
+
+.welcome {
+    width: 80%;
+    background-color: #fff;
+    font-size: 80%;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2% 0%;
+    margin: 20% 8%;
+    box-shadow: inset 0 0 10px #b6e1dc;
+}
+
+.username {
+    width: 80%;
+    background-color: #fff;
+    font-size: 80%;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2% 0%;
+    margin: 20% 8% 10%;
+    box-shadow: inset 0 0 10px #b6e1dc;
+}
+
+#username {
+    margin-bottom: 2%;
+}
+
+.next {
+    font-weight: bolder;
+    font-size: 400%;
+}
+
+footer {
+    width: 100%;
+    height: 5rem;
+    margin: 15% 0 5%;
+    position: relative;
+}
+
+footer a {
+    font-size: 200%;
+    margin: 0 10%;
+    color: darkslategray;
+    display: inline-flexbox;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
